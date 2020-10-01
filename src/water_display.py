@@ -19,8 +19,8 @@ def paused():
 
 vec = pygame.math.Vector2
 
-V_0 = vec(0,5) # initial speed [m/s]
-A = vec(0,20) # acceleration [m/(s^2)]
+V_0 = vec(0,1) # initial speed [m/s]
+A = vec(0,30) # acceleration [m/(s^2)]
 WATER_SCREEN_SIZE = (1000,700) #water screen dimension [cm]
 PERIOD = 2 #how long a each line is resposible for state of valves [ms]
 

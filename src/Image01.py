@@ -7,4 +7,3 @@ class Image01:
         self.array01 = np.array(self.img_01.getdata()).reshape(self.img_01.size[0], self.img_01.size[1])
         self.array01[self.array01 <= 128 ] = 0
         self.array01[self.array01 > 128] = 1
-        np.savetxt("foo.csv", self.array01, fmt="%i",delimiter=",")
