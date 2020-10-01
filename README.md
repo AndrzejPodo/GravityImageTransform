@@ -12,6 +12,9 @@ This project provides one of possible solutions to optimize sharpness of falling
 
 ![transformation process image](./readme_img/transformation_process.png)
 
+When we display transformed image on 'gravity display' we can see a significant improvement in sharpness of the image.
+
+![accelerating velocity gif](./readme_img/acc_after_transform.gif)
 
 ## Most important files:
 - `src/water_display.py` - this is a simple simulation of described screen written using pygames
